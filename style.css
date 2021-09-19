@@ -1,0 +1,37 @@
+
+.fixed {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#emojiCanvas {
+  display: none;
+}
+
+.card {
+  overflow: hidden;
+}
+
+#emojiImage {
+  max-width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 0 100px 50px #0a57ca18;
+  border: none;
+}
