@@ -23,6 +23,4 @@ node_modules
 npm-debug.log
 
 bash.exe.stackdump
-dist/*
-!dist/index.html
 .DS_Store

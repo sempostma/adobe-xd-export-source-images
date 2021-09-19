@@ -19,7 +19,7 @@
   "scripts": {
     "webpack": "webpack",
     "prepublish": "npm run webpack",
-    "dist": "git subtree push --prefix dist gh-pages master"
+    "dist": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "file-saver": "^2.0.5",
